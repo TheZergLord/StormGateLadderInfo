@@ -49,7 +49,7 @@
                                 {{ $player->ties }}
                             </td>
                             <td>
-                                {{ $player->winrate }}
+                                {{ $player->winrate }} %
                             </td>
                         </tr>
                     @endforeach

@@ -21,7 +21,7 @@ return new class extends Migration
             $table->integer('wins');
             $table->integer('losses');
             $table->integer('ties');
-            $table->integer('winrate');
+            $table->float('winrate');
             $table->timestamps();
         });
         
